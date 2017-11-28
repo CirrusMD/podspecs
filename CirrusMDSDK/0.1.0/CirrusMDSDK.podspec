@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
   'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CirrusMDSDK/zlib'
   }
-  s.preserve_paths = '*/zlib/*'
+  # s.preserve_paths = '*/zlib/*'
 end
