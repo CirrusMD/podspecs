@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version                 = '0.2.0'
   s.summary                 = 'Your virtual front door to integrated care delivery. Text with a doctor in under a minute.'
   s.homepage                = "https://github.com/CirrusMD/CirrusMD-iOS-SDK-Example"
-  s.license                 = 'MIT'
+  s.license                 = 'Custom'
   s.author                  = {'CirrusMD' => 'http://cirrusmd.com'}
   s.source                  = { :http => "https://github.com/CirrusMD/CirrusMD-iOS-SDK-Example/releases/download/v#{s.version}/CirrusMDSDK.framework.zip" }
   s.social_media_url        = 'https://twitter.com/cirrusmd'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
     'SWIFT_VERSION' => '4.0',
     'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CirrusMDSDK/CirrusMDSDK.framework/zlib'
   }
-  s.preserve_paths = 'CirrusMDSDK.framework/zlib/*'
+  s.preserve_paths = 'CirrusMDSDK.framework/zlib/module.modulemap'
 end
