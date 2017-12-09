@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
     'SWIFT_VERSION' => '4.0',
     'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CirrusMDSDK/CirrusMDSDK.framework/zlib'
   }
-  # s.preserve_paths = 'zlib/*'
+  s.preserve_paths = 'CirrusMDSDK.framework/zlib/*'
 end
