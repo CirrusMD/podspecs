@@ -1,5 +1,6 @@
 
 Pod::Spec.new do |s|
+  s.platform                = :ios
   s.name                    = 'CirrusMDSDK'
   s.version                 = '1.4.3'
   s.summary                 = 'Your virtual front door to integrated care delivery. Text with a doctor in under a minute.'
@@ -12,9 +13,9 @@ Pod::Spec.new do |s|
   s.ios.frameworks          = 'UIKit', 'SystemConfiguration', 'Security', 'Foundation', 'CoreGraphics'
   s.ios.libraries           = 'z', 'c++'
   s.ios.vendored_frameworks = 'CirrusMDSDK.framework'
+  s.preserve_paths          = 'CirrusMDSDK.framework/zlib/module.modulemap'
+  s.swift_version           = "5.0"
   s.xcconfig = {
-    'SWIFT_VERSION' => '5.0',
     'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/CirrusMDSDK/CirrusMDSDK.framework/zlib'
   }
-  s.preserve_paths = 'CirrusMDSDK.framework/zlib/module.modulemap'
 end
