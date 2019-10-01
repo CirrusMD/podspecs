@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage                = 'https://github.com/CirrusMD/UDF'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
   s.author                  = {'CirrusMD' => 'http://cirrusmd.com'}
-  s.source                  = { :git => 'https://github.com/CirrusMD/UDF.git', :tag => s.version.to_s }
+  s.source                  = { :git => 'https://github.com/CirrusMD/UDF.git', :tag => "v#{s.version}" }
   s.social_media_url        = 'https://twitter.com/cirrusmd'
   s.ios.deployment_target   = '10.0'
   s.source_files            = 'Sources/**/*'
