@@ -14,4 +14,17 @@ Pod::Spec.new do |s|
   s.ios.libraries           = 'z', 'c++'
   s.ios.vendored_frameworks = 'CirrusMDSDK.framework'
   s.swift_version           = "5.1"
+  
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'ObjectMapper', '~> 3.5.1'
+  s.dependency 'Kingfisher', '~> 5.8.1'
+  s.dependency 'SnapKit', '~> 5.0.1'
+  s.dependency 'Starscream', '~> 3.1.1'
+  s.dependency 'Then', '~> 2.6.0'
+  s.dependency 'RNCryptor', '~> 5.1.0'
+  s.dependency 'KTVJSONWebToken', '~> 2.1.0'
+  s.dependency 'JTSImageViewController', '~> 1.5.1'
+  s.dependency 'ReachabilitySwift', '~> 4.3.1'
+  s.dependency 'OpenTok', '~> 2.16.3'
+  s.dependency 'UDF', '~> 0.7.0'
 end
