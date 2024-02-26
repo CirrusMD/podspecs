@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author                  = {'CirrusMD' => 'https://cirrusmd.com'}
   s.source                  = { :http => "https://cirrusmd-ios-sdk-release.s3.amazonaws.com/artifacts/v#{s.version}/CirrusMDSDK.xcframework.zip" }
   s.social_media_url        = 'https://twitter.com/cirrusmd'
-  s.ios.deployment_target   = '13.0'
+  s.ios.deployment_target   = '14.0'
   s.ios.frameworks          = 'UIKit', 'SystemConfiguration', 'Security', 'Foundation', 'CoreGraphics'
   s.ios.libraries           = 'z', 'c++'
   s.ios.vendored_frameworks = 'CirrusMDSDK.xcframework'
